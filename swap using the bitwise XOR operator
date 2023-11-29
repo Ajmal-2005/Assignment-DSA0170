@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n1, n2;
+    cin >> n1;
+    cin >> n2;
+
+    // Swap the values using bitwise XOR operator
+    n1 = n1 ^ n2;
+    n2 = n1 ^ n2;
+    n1 = n1 ^ n2;
+
+    // Print the swapped values
+    cout << "After swapping, the first integer is: " << n1 << "\n";
+    cout << "After swapping, the second integer is: " << n2 <<"\n";
+
+    return 0;
+}
