@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+  float a;
+  cin>>a;
+  cout<<"nearest lower integer of your number is = "<<floor(a);
+  cout<<"\n" << "nearest upper of your number is = "<<ceil(a);
+  
+}
